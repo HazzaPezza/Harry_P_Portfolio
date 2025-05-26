@@ -10,17 +10,33 @@ body {
     margin: 0;
 }
 
-.header-links {
-    background-color: black;
-    color: white;
+.page-header {
+    padding: 20px;
+    background-color: lightgray;
+    position: fixed;
+    width: 100vw;
+}
+
+.header-links-container {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.nav-bar-span {
+    margin-right: 40px;
 }
 
 .title-link {
+    padding: 8px;
+    font-size: 20px;
     text-decoration: none;
-    color: white;
-    font-size: 25px;
-    padding: 2px;
+    color: black; 
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+}
+
+.title-link:hover {
+    background-color: lightblue;
 }
