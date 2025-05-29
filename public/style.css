@@ -63,6 +63,13 @@ body {
     background-color: darkgray
 }
 
+.contact-section {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: darkgray;
+}
+
 .final-section {
     margin: 0;
     width: 100%;
