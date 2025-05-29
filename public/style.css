@@ -63,7 +63,14 @@ body {
     background-color: darkgray
 }
 
-.content-container, .contact-content-container {
+.final-section {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: rgb(28, 28, 52);
+}
+
+.content-container, .contact-content-container, .about-content-container {
     max-width: 1600px;
     margin: 0 auto;
     padding: 100px;
@@ -74,6 +81,12 @@ body {
     max-width: 2000px;
     margin: 0 auto;
     padding: 0;
+}
+
+.about-content-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 100px;
 }
 
 .title-header {
@@ -155,4 +168,11 @@ body {
 .project-description {
     font-size: 1.5rem;
     margin-top: 10px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
 }
