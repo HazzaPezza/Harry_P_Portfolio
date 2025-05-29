@@ -133,7 +133,7 @@ body {
 
 .project-carousel-container {
     display: flex;
-    overflow-x: auto;;
+    overflow-x: auto;
     gap: 20px;
 }
 
@@ -154,8 +154,8 @@ body {
 }
 
 .tech-stack-logo {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 40px;
+    max-height: 40px;
     margin-right: 10px;
 }
 
@@ -186,4 +186,49 @@ body {
     font-size: 1.2rem;
     text-align: center;
     padding: 20px;
+}
+
+.about-header {
+    font-size: 3rem;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.about-text {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+/* EDUCATION SECTION CSS */
+
+.education-info-container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.education-element {
+    margin-bottom: 50px;
+    max-width: 400px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.education-title {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.education-subtitle, .education-date, .education-description {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
 }
