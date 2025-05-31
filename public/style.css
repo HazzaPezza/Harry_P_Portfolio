@@ -30,7 +30,7 @@ body {
 .page-header {
     padding: 20px;
     overflow: hidden;
-    background-color: lightgray;
+    background-color: rgb(28, 28, 52);
     position: fixed;
     top: 0;
     width: 100vw;
@@ -51,13 +51,12 @@ body {
     padding: 8px;
     font-size: 20px;
     text-decoration: none;
-    color: black; 
-    background-color: rgb(211, 211, 211);
+    color: white; 
     border-radius: 10px;
 }
 
 .title-link:hover {
-    background-color: lightblue;
+    text-decoration: underline;
 }
 
 
@@ -120,14 +119,12 @@ body {
 
 .contact-content-container {
     text-align: center;
-    filter: drop-shadow(1px 6px 13px #a8a8a8);
 }
 
 .title-header {
     font-size: 10rem;
     padding: 0;
     margin: 0;
-    filter: drop-shadow(1px 6px 13px #a8a8a8);
 }
 
 .page-subtitle {
@@ -174,7 +171,6 @@ body {
     padding: 20px;
     background-color: lightgray;
     border-radius: 10px;
-    filter: drop-shadow(8px 10px 13px #a8a8a8);
 }
 
 .project-card:hover {
@@ -182,15 +178,15 @@ body {
 }
 
 .tech-stack-logo {
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 75px;
+    max-height: 75px;
     margin-right: 10px;
 }
 
 .logo-container {
     display: flex;
-    justify-content: right;
-    margin-bottom: 100px;
+    justify-content: left;
+    margin-bottom: 50px;
 }
 
 .project-title {
@@ -210,6 +206,11 @@ body {
 }
 
 
+/* Contact Section CSS */
+.contact-subtitle {
+    margin-bottom: 25px;
+}
+
 
 
 /* Footer CSS */
@@ -227,7 +228,8 @@ body {
 .about-header {
     font-size: 3rem;
     padding: 0;
-    margin-top: 50px;
+    margin-top: 150px;
+    margin-bottom: 25px;
 }
 
 .about-text {
